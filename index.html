@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tell Me About</title>
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100..900&display=swap"
       rel="stylesheet"
-    /> -->
+    />
     <link rel="stylesheet" href="style/style.css" />
     <script src="./script/script.js" defer></script>
   </head>
@@ -38,7 +38,7 @@
       </div>
 
       <div class="result-body">
-        <section class="general-info hide" id="general-info">
+        <div class="general-info sec hide" id="general-info">
           <h1 class="country-name" id="country-name"></h1>
           <div class="info-box">
             <div class="info">
@@ -47,7 +47,7 @@
                 <p class="data"></p>
               </div>
               <div class="data-box">
-                <p class="data-key">Symbol:</p>
+                <p class="data-key">Currency Symbol:</p>
                 <p class="data"></p>
               </div>
               <div class="data-box">
@@ -63,63 +63,44 @@
               <img src="" id="flag" alt="" />
             </div>
           </div>
-        </section>
+        </div>
 
         <!-- related information box -->
-        <section class="related-info-box hide" id="related-info-box">
-          <p class="heading">Related Information</p>
-          <div class="card-box">
-            <div class="card">
-              <p class="card-value"></p>
-              <p class="card-title">Population</p>
-            </div>
-            <div class="card">
-              <p class="card-value"></p>
-              <p class="card-title">Area (km <sup>2</sup>)</p>
-            </div>
-            <div class="card">
-              <p class="card-value"></p>
-              <p class="card-title">Continent</p>
-            </div>
-            <div class="card">
-              <p class="card-value"></p>
-              <p class="card-title">UN Member</p>
-            </div>
-            <div class="card">
-              <p class="card-value"></p>
-              <p class="card-title">Independent</p>
+        <section>
+          <div class="related-info-box sec hide" id="related-info-box">
+            <p class="heading">Related Information</p>
+            <div class="card-box">
+              <div class="card">
+                <p class="card-value"></p>
+                <p class="card-title">Population</p>
+              </div>
+              <div class="card">
+                <p class="card-value"></p>
+                <p class="card-title">Area (km <sup>2</sup>)</p>
+              </div>
+              <div class="card">
+                <p class="card-value"></p>
+                <p class="card-title">Continent</p>
+              </div>
+              <div class="card">
+                <p class="card-value"></p>
+                <p class="card-title">UN Member</p>
+              </div>
+              <div class="card">
+                <p class="card-value"></p>
+                <p class="card-title">Independent</p>
+              </div>
             </div>
           </div>
         </section>
 
         <!-- neighboring country -->
-        <section class="related-info-box neighbor" id="neighbor">
-          <p class="heading">Neighboring Country</p>
-          <div class="country-card-box" id="country-card-box">
-            No Neighboring Country
-            <!-- <div class="country-card">
-              <div class="neighbor-flag">
-                <img src="./assets/nflag.png" alt="" />
-              </div>
-              <div class="neighbor-info">
-                <p class="neighbor-name">Nepal</p>
-                <p class="neighbor-cont">Asia</p>
-                <div class="neighbor-details">
-                  <div class="detail-row">
-                    <img src="./assets/team.png" alt="" class="detail-key" />
-                    <p class="neighbor-value">102M</p>
-                  </div>
-                  <div class="detail-row">
-                    <img src="./assets/coin.png" alt="" class="detail-key" />
-                    <p class="neighbor-value">₹</p>
-                  </div>
-                  <div class="detail-row">
-                    <img src="./assets/speak.png" alt="" class="detail-key" />
-                    <p class="neighbor-value">Nepali</p>
-                  </div>
-                </div>
-              </div>
-            </div> -->
+        <section>
+          <div class="related-info-box neighbor sec" id="neighbor">
+            <p class="heading">Neighboring Country</p>
+            <div class="country-card-box" id="country-card-box">
+              No Neighboring Country
+            </div>
           </div>
         </section>
       </div>
